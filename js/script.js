@@ -326,4 +326,27 @@ $(document).ready(function () {
         // 색상빼기
         sitemap.removeClass('sitemap-active');
     });
+
+    // 공지사항, 물품소식 탭 기능
+    let tab_menu_1 = $('.tab-menu-1');
+    let tab_menu_2 = $('.tab-menu-2');
+    let com_news_list_1 = $('.com-news-list-1');
+    let com_news_list_2 = $('.com-news-list-2');
+
+    tab_menu_1.click(function (event) {
+        event.preventDefault();
+        com_news_list_1.show();
+        com_news_list_2.hide();
+        $(this).addClass('tab-menu-active');
+        tab_menu_2.removeClass('tab-menu-active');
+    });
+
+    tab_menu_2.click(function (event) {
+        event.preventDefault();
+        com_news_list_2.show();
+        com_news_list_1.hide();
+        $(this).addClass('tab-menu-active');
+        tab_menu_1.removeClass('tab-menu-active');
+    });
+
 });

@@ -584,7 +584,6 @@ body {
     vertical-align: 0.2rem;
 }
 
-
 .see-more-list {
     position: absolute;
     left: 50%;
@@ -2453,8 +2452,7 @@ body {
 }
 
 /* 탭 메뉴 내용 리스트 */
-
-.com-news-list {
+.com-news-list-1 {
     position: absolute;
     left: 0;
     top: 0%;
@@ -2462,18 +2460,18 @@ body {
     display: none;
 }
 
-.com-news-list-active {
+.com-news-list-1-active {
     display: block;
 }
 
-.com-news-list>li {
+.com-news-list-1>li {
     position: relative;
     display: block;
     overflow: hidden;
     margin-bottom: 1rem;
 }
 
-.com-news-list>li>a {
+.com-news-list-1>li>a {
     display: block;
     float: left;
     font-size: 1.3rem;
@@ -2483,7 +2481,7 @@ body {
     line-height: 1.461;
 }
 
-.com-news-list>li>span {
+.com-news-list-1>li>span {
     display: block;
     float: right;
     font-size: 1.3rem;
@@ -2491,6 +2489,81 @@ body {
     color: #999;
     letter-spacing: -0.0325rem;
     line-height: 1.461;
+}
+
+.com-news-list-2 {
+    position: absolute;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    display: none;
+}
+
+.com-news-list-2-active {
+    display: block;
+}
+
+.com-news-list-2>li {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.com-news-list-2>li>a {
+    display: block;
+    float: left;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: -0.0325rem;
+    line-height: 1.461;
+}
+
+.com-news-list-2>li>span {
+    display: block;
+    float: right;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #999;
+    letter-spacing: -0.0325rem;
+    line-height: 1.461;
+}
+
+/* 탭메뉴 포커스  */
+.tab-menu-1 {
+    display: inline-block;
+    color: #999;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.tab-menu-2 {
+    display: inline-block;
+    color: #999;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.tab-menu-bar {
+    position: relative;
+    display: inline-block;
+    width: 0.1rem;
+    height: 1.8rem;
+    background-color: #e5e5e5;
+    margin: 0 1rem;
+    vertical-align: -0.2rem;
+}
+
+.tab-menu-active {
+    color: #000;
+    font-weight: 700;
+}
+
+.com-news-wrap {
+    position: relative;
+    display: block;
+    margin-top: 3rem;
 }
 
 .com-tel {
